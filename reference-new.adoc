@@ -16,7 +16,7 @@ summary: Cloud Volumes ONTAP 9.10.0 には、いくつかの新機能と機能�
 [role="lead"]
 Cloud Volumes ONTAP 9.10.0 には、いくつかの新機能と機能拡張が含まれています。
 
-その他の機能と機能拡張は、 Cloud Manager の最新バージョンで導入されました。を参照してください https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Cloud Manager リリースノート"^] を参照してください。
+その他の機能と拡張機能も、最新バージョンのBlueXPで導入されました。を参照してください https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["BlueXPリリースノート"^] を参照してください。
 
 
 
@@ -51,18 +51,18 @@ NOTE: シングルノードシステムを選択し、仮想マシンで Ultra S
 
 
 
-== 必要な Cloud Manager Connector のバージョン
+== 必要なBlueXPコネクタのバージョン
 
-新しい Cloud Volumes ONTAP 9.10.0 システムを導入し、既存のシステムを 9.10.0 にアップグレードするには、 Cloud Manager Connector でバージョン 3.9.11 以降が実行されている必要があります。
+新しいCloud Volumes ONTAP 9.10.0システムを導入し、既存のシステムを9.10.0にアップグレードするには、BlueXP Connectorがバージョン3.9.11以降を実行している必要があります。
 
 
 
 == アップグレードに関する注意事項
 
-* Cloud Volumes ONTAP のアップグレードが Cloud Manager から完了している必要があります。System Manager または CLI を使用して Cloud Volumes ONTAP をアップグレードしないでください。これを行うと、システムの安定性に影響を与える可能性
-* 9.9.1 リリースから Cloud Volumes ONTAP 9.10.0 にアップグレードできます。既存の Cloud Volumes ONTAP 9.9.1 システムを 9.10.0 リリースにアップグレードするよう求めるメッセージが Cloud Manager に表示されます。
+* Cloud Volumes ONTAP のアップグレードは、BlueXPから完了している必要があります。System Manager または CLI を使用して Cloud Volumes ONTAP をアップグレードしないでください。これを行うと、システムの安定性に影響を与える可能性
+* 9.9.1 リリースから Cloud Volumes ONTAP 9.10.0 にアップグレードできます。BlueXPでは、既存のCloud Volumes ONTAP 9.9.1システムを9.10.0リリースにアップグレードするように求められます。
 +
-http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html["Cloud Manager から通知された場合のアップグレード方法について説明します"^]。
+http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html["BlueXPから通知があった場合のアップグレード方法について説明します"^]。
 
 * シングルノードシステムのアップグレードでは、 I/O が中断されるまで最大 25 分間システムがオフラインになります。
 * HA ペアのアップグレードは無停止で、 I/O が中断されません。無停止アップグレードでは、各ノードが連携してアップグレードされ、クライアントへの I/O の提供が継続されます。
